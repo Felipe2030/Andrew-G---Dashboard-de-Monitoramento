@@ -1,0 +1,167 @@
+
+/* body { overflow: hidden; } */
+
+.container_header {
+    width: 100%;
+    height: 40px;
+    background:#0f8ec1;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.container_header p {
+    color: #FFF;
+    font-size: 1em;
+    font-weight: 600;
+    margin-left: 20px;
+}
+
+.container_header button {
+    margin-right: 20px;
+    border: 0px;
+    background: transparent;
+    color: #FFF;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.container_painel {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 0px 0px 0px;
+}
+
+.container_painel label {
+    display: block;
+    font-weight: 600;
+    font-size: 1.2em;
+    color: #0f8ec1;
+    text-transform: capitalize;
+    margin: 0px 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container_painel label input{
+    width: 20px;
+    height: 20px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+  
+
+.container_indicadores {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 10px;
+    padding: 0px 20px;
+}
+
+.container_indicadores .indicador {
+   width: 200px;
+   height: 100px;
+   border-radius: 4px;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.container_indicadores .indicador span {
+    display: block;
+    text-transform: capitalize;
+}
+
+.container_indicadores .indicador span:nth-child(1) {
+    font-weight: 600;
+    font-size: 1.2em;
+    color: #0f8ec1;
+}
+
+.container_indicadores .indicador span:nth-child(2) {
+    font-weight: 500;
+    font-size: 1.2em;
+    margin-top: 10px;
+    color: rgb(19, 19, 19);
+}
+
+.container_indicadores_graficos {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    height: 100%;
+    padding: 20px;
+}
+
+.container_indicadores_graficos .indicador_grafico {
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    border-radius: 4px;
+    width: 500px;
+    height: 280px;
+    padding: 20px;
+}
+
+.container_indicadores_graficos .indicador_grafico div {
+    text-transform: capitalize;
+    font-weight: 600;
+    font-size: 1.2em;
+    color: #0f8ec1;
+    margin-bottom: 10px;
+    display: flex !important;
+    justify-content: space-between !important;
+    margin: 0px;
+}
+
+.container_indicadores_graficos .indicador_grafico div input {
+    width: 140px;
+    padding: 4px 6px;
+    border-radius: 4px;
+    border: 0px;
+    cursor: pointer;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.filtro_data {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.filtro_data .filtro {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.filtro_data .filtro span {
+    font-size: 14px;
+}
+
+#botao_rearme {
+    padding: 10px;
+    text-transform: capitalize;
+    color: #FFF;
+    background: #0f8ec1;
+    opacity: 0.5;
+    border-radius: 4px;
+    border: 0px;
+    cursor: pointer;
+}
+
+.active {
+    opacity: 1 !important;
+}
+
+@media (max-width: 1280px)
+{
+    .container_indicadores .indicador {
+        width: 100%;
+    }
+}

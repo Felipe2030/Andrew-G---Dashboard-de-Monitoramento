@@ -1,0 +1,66 @@
+{
+    "usuarios": {
+        "avSVnxICMXfrbxmVmkF2YkxV10Q2": {
+            "username": "felipe.bonfim",
+            "senha": "257119aa",
+            "ativo": true,
+            "painel": true
+        }
+    },
+    "painel": {
+         "avSVnxICMXfrbxmVmkF2YkxV10Q2": {
+            "estados": {
+              "botao_rearme": true,
+              "disjuntor_armado": true,
+              "tensao_presente": true
+            },
+            "medicoes": {
+              "corrente": 200,
+              "demanda": 1200,
+              "fator_de_potencia": 0.92,
+              "potencia_aparente": 1000,
+              "potencia_ativa": 900,
+              "potencia_reativa": 100,
+              "tensao": 13000
+            },
+            "medicoes_tempo": {
+              "demanda": {
+                "-NGsJuX1oh7AaHUz0N_R": "demanda: \"1200\", tempo: \"Mon Nov 14 2022 22:47:39 GMT+0000 (Coordinated Universal Time)",
+                "-NGsK-rrT0xaV25HCi32": "demanda: \"1200\", tempo: \"Mon Nov 14 2022 22:48:05 GMT+0000 (Coordinated Universal Time)",
+                "-NGsK-znHsMfD1vmiaHF": "demanda: \"1200\", tempo: \"Mon Nov 14 2022 22:48:05 GMT+0000 (Coordinated Universal Time)",
+                "-NGsKOib2QGI3hy1Je8A": "demanda: \"1200\", tempo: \"Mon Nov 14 2022 22:49:47 GMT+0000 (Coordinated Universal Time)"
+              },
+              "fator_de_potencia": {
+                "-NGsJuJD-6ZZRrkefbXk": "fator_de_potencia: \"0.92\", tempo: \"Mon Nov 14 2022 22:47:38 GMT+0000 (Coordinated Universal Time)",
+                "-NGsK-Yw3f2BmmNYUPIT": "fator_de_potencia: \"0.92\", tempo: \"Mon Nov 14 2022 22:48:04 GMT+0000 (Coordinated Universal Time)",
+                "-NGsK-c97JgAVJCEBqs8": "fator_de_potencia: \"0.92\", tempo: \"Mon Nov 14 2022 22:48:04 GMT+0000 (Coordinated Universal Time)",
+                "-NGsKN-ewbrod-WdhDuA": "fator_de_potencia: \"0.92\", tempo: \"Mon Nov 14 2022 22:49:40 GMT+0000 (Coordinated Universal Time)"
+              },
+              "potencia_aparente": {
+                "-NGsKJv_yLphw66rrzEs": "potencia_aparente: \"1000\", tempo: \"Mon Nov 14 2022 22:49:27 GMT+0000 (Coordinated Universal Time)",
+                "-NGsKK9yIjtNGKoHOF3p": "potencia_aparente: \"1000\", tempo: \"Mon Nov 14 2022 22:49:28 GMT+0000 (Coordinated Universal Time)",
+                "-NGsKKLfrSMbgeKXi1TA": "potencia_aparente: \"1000\", tempo: \"Mon Nov 14 2022 22:49:29 GMT+0000 (Coordinated Universal Time)",
+                "-NGsKKWVtmDnLIHr62k1": "potencia_aparente: \"1000\", tempo: \"Mon Nov 14 2022 22:49:30 GMT+0000 (Coordinated Universal Time)"
+              },
+              "potencia_ativa": {
+                "-NGsJuzWCmj9vRyUl0cW": "potencia_ativa: \"900\", tempo: \"Mon Nov 14 2022 22:47:41 GMT+0000 (Coordinated Universal Time)",
+                "-NGsK0fs_h_EGNHUoq8B": "potencia_ativa: \"900\", tempo: \"Mon Nov 14 2022 22:48:08 GMT+0000 (Coordinated Universal Time)",
+                "-NGsKE9-M6bZdegzF0eR": "potencia_ativa: \"900\", tempo: \"Mon Nov 14 2022 22:49:03 GMT+0000 (Coordinated Universal Time)",
+                "-NGsKECKQjg-coIaJvma": "potencia_ativa: \"900\", tempo: \"Mon Nov 14 2022 22:49:04 GMT+0000 (Coordinated Universal Time)"
+              },
+              "potencia_reativa": {
+                "-NGsJulHUfujJTt5Iu5b": "potencia_reativa: \"100\", tempo: \"Mon Nov 14 2022 22:47:40 GMT+0000 (Coordinated Universal Time)",
+                "-NGsK0CAhlvidkhsSSzt": "potencia_reativa: \"100\", tempo: \"Mon Nov 14 2022 22:48:06 GMT+0000 (Coordinated Universal Time)",
+                "-NGsK0H_kyZiA1BUf87L": "potencia_reativa: \"100\", tempo: \"Mon Nov 14 2022 22:48:07 GMT+0000 (Coordinated Universal Time)",
+                "-NGsKCTWJuUBukos6xjQ": "potencia_reativa: \"100\", tempo: \"Mon Nov 14 2022 22:48:57 GMT+0000 (Coordinated Universal Time)"
+              },
+              "tensao": {
+                "-NGsJvcDdRAQNG0NSqHm": "tensao: \"13000\", tempo: \"Mon Nov 14 2022 22:47:43 GMT+0000 (Coordinated Universal Time)",
+                "-NGsK1ZxVAPTnRbox9-V": "tensao: \"13000\", tempo: \"Mon Nov 14 2022 22:48:12 GMT+0000 (Coordinated Universal Time)",
+                "-NGsK1f5HP5aMe8q39qO": "tensao: \"13000\", tempo: \"Mon Nov 14 2022 22:48:12 GMT+0000 (Coordinated Universal Time)",
+                "-NGsKA8G0As274x_3j66": "tensao: \"13000\", tempo: \"Mon Nov 14 2022 22:48:47 GMT+0000 (Coordinated Universal Time)"
+              }
+            }
+          }
+    }
+}

@@ -1,0 +1,9 @@
+{
+    "apiKey": "AIzaSyAQHumXCr3vfphbtqsmaZx_ytRsi0_uTYc",
+    "authDomain": "cabine-primaria-v1.firebaseapp.com",
+    "projectId": "cabine-primaria-v1",
+    "storageBucket": "cabine-primaria-v1.appspot.com",
+    "messagingSenderId": "892635606169",
+    "appId": "1:892635606169:web:9212dd1cd4da051ca09c08",
+    "databaseURL": "https://cabine-primaria-v1-default-rtdb.firebaseio.com"
+}

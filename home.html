@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/reset-styles.css">
+    <link rel="stylesheet" href="./css//home-styles.css">
+    <script src="./js/bibliotecas/gauge.min.js"></script>
+    <script src="./js/bibliotecas/chart.js"></script>
+</head>
+<body>
+    <div class="container_header">
+        <p>Palle Elétrica Industrial - Monitoramento Cabine Primária</p>
+        <button id="btnLogout">Sair</button>
+    </div>
+    <div class="container_content">
+        <div class="container_painel">
+            
+            <button class="active" id="botao_rearme">botão rearme</button>
+            
+            <label for="disjuntor_armado"> disjuntor armado
+                <input type="checkbox" name="disjuntor_armado" id="disjuntor_armado">
+            </label> 
+            <label for="tensao_presente"> tensão presente
+                <input type="checkbox" name="tensao_presente" id="tensao_presente">
+            </label> 
+        </div>
+        <div class="container_indicadores">
+            <div class="indicador " id="indicador_corrente">
+                <span>corrente</span>
+                <span>0</span>
+            </div>
+            <div class="indicador" id="indicador_demanda">
+                <span>demanda</span>
+                <span>0</span>
+            </div>
+            <div class="indicador" id="indicador_fator_potencia">
+                <span>fator de potência</span>
+                <span>0</span>
+            </div>
+            <div class="indicador" id="indicador_potencia_aparente">
+                <span>potência aparente</span>
+                <span>0</span>
+            </div>
+            <div class="indicador" id="indicador_potencia_ativa">
+                <span>potência ativa</span>
+                <span>0</span>
+            </div>
+            <div class="indicador" id="indicador_potencia_reativa">
+                <span>potência reativa</span>
+                <span>0</span>
+            </div>
+            <div class="indicador" id="indicador_tensao">
+                <span>tensão</span>
+                <span>0</span>
+            </div>
+        </div>
+        <div class="container_indicadores_graficos">
+            <div class="indicador_grafico">
+                <div class="title">
+                    <span>Demanda</span>
+                    <div class="filtro_data filtro_data_demanda">
+                        <div class="filtro">
+                            <span>Data</span>
+                            <input type="date">
+                        </div>
+                    </div>
+                </div>
+                <canvas id="indicador_grafico_demanda"></canvas>
+            </div>
+            <div class="indicador_grafico">
+                <div class="title">
+                    <span>fator de potência</span>
+                    <div class="filtro_data filtro_data_fator_de_potencia">
+                        <div class="filtro">
+                            <span>Data</span>
+                            <input type="date">
+                        </div>
+                    </div>
+                </div>
+                <canvas id="indicador_grafico_fator_de_potencia"></canvas>
+            </div>
+            <div class="indicador_grafico">
+                <div class="title">
+                    <span>potência aparente</span>
+                    <div class="filtro_data filtro_data_potencia_aparente">
+                        <div class="filtro">
+                            <span>Data</span>
+                            <input type="date">
+                        </div>
+                    </div>
+                </div>
+                <canvas id="indicador_grafico_potencia_aparente"></canvas>
+            </div>
+            <div class="indicador_grafico">
+                <div class="title">
+                    <span>potência ativa</span>
+                    <div class="filtro_data filtro_data_potencia_ativa">
+                        <div class="filtro">
+                            <span>Data</span>
+                            <input type="date">
+                        </div>
+                    </div>
+                </div>
+                <canvas id="indicador_grafico_potencia_ativa"></canvas>
+            </div>
+            <div class="indicador_grafico">
+                <div class="title">
+                    <span>potência reativa</span>
+                    <div class="filtro_data filtro_data_potencia_reativa">
+                        <div class="filtro">
+                            <span>Data</span>
+                            <input type="date">
+                        </div>
+                    </div>
+                </div>
+                <canvas id="indicador_grafico_potencia_reativa"></canvas>
+            </div>
+            <div class="indicador_grafico">
+                <div class="title">
+                    <span>tensão</span>
+                    <div class="filtro_data filtro_data_tensao">
+                        <div class="filtro">
+                            <span>Data</span>
+                            <input type="date">
+                        </div>
+                    </div>
+                </div>
+                <canvas id="indicador_grafico_tensao"></canvas>
+            </div>
+            <div class="indicador_grafico">
+                <div class="title">
+                    <span>corrente</span>
+                    <div class="filtro_data filtro_data_corrente">
+                        <div class="filtro">
+                            <span>Data</span>
+                            <input type="date">
+                        </div>
+                    </div>
+                </div>
+                <canvas id="indicador_grafico_corrente"></canvas>
+            </div>
+        </div>
+    </div>
+    
+    <script src="./js/bibliotecas/firebase-app.js"></script>
+    <script src="./js/bibliotecas/firebase.js"></script>
+    <script type="module" src="./js/app/home.js"></script>
+</body>
+</html>
